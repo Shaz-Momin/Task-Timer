@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Task Timer",
+  "name": "Task Timer",
+  "description": "A simple Task manager that helps you focus on tasks for the allotted time",
   "icons": [
     {
       "src": "favicon.ico",
