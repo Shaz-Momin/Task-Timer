@@ -2,7 +2,7 @@
   "name": "task-timer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shaz-momin.github.io/Task-Timer",
+  "homepage": "https://shaz-momin.github.io/Task-Timer",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
