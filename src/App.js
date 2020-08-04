@@ -45,7 +45,11 @@ class App extends React.Component {
   }
 
   handleTimeChange(e) {
-    this.state.timeLeft = e.target.value;
+    if (e.target.value < 0) {
+      alert("Please enter a valid time in minutes (Any number higher than 0)")
+    } else {
+      this.state.timeLeft = e.target.value;
+    }
   }
 
   render() {
