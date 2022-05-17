@@ -25,6 +25,16 @@ class App extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
+
+    if (this.state.task == "") {
+      alert("Please enter a title for this task")
+      return
+    }
+
+    if (this.state.timeLeft == "") {
+      alert("Please enter a time for this task")
+      return
+    }
     
     this.setState({
       [e.target.name]: e.target.value,
